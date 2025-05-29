@@ -23,7 +23,7 @@ class Login : AppCompatActivity() {
 
     fun valida(nome: String, password: String): String {
         if (nome != "" && password != "" && password.length > 5) {
-            if (nome == "TommyPigna" && password == "Tommy.161106") {
+            if (nome == "Cristian" && password == "Puttone.2006") {
                 val digest = MessageDigest.getInstance("SHA-256")
                 val hashBytes = digest.digest(password.toByteArray(Charsets.UTF_8))
                 return Base64.getEncoder().encodeToString(hashBytes)
