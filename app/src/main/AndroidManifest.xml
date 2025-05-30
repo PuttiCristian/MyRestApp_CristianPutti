@@ -16,7 +16,7 @@
             android:name=".WebView"
             android:exported="false" />
         <activity
-            android:name=".menu"
+            android:name=".Menu"
             android:exported="false" />
         <activity
             android:name=".login"

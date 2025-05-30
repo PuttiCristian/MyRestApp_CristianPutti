@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class MovieAdapter(private val movies: List<Movie>) :
+class MovieAdapter(private var movies: List<Movie>) :
     RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 
     class MovieViewHolder(view: View) : RecyclerView.ViewHolder(view) {
