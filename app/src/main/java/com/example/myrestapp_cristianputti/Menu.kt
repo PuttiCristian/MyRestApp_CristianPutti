@@ -47,7 +47,7 @@ class Menu : AppCompatActivity() {
     private fun search(searchedText: String) {
         val queue: RequestQueue = Volley.newRequestQueue(this)
         val apiKey = "43f3a41d"
-        val url = "https://www.omdbapi.com/?s=" + searchedText + "&apikey=" + apiKey
+        val url = "https://www.omdbapi.com/?s=" + searchedText + "&apiKey=" + apiKey
 
         val stringRequest = StringRequest(Request.Method.GET, url,
             { response ->

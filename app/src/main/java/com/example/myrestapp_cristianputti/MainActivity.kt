@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
             if (result != "Credenziali non valide") {
                 Toast.makeText(this, "Accesso riuscito!", Toast.LENGTH_SHORT).show()
 
-                // Passaggio all'activity Menu.kt
-                val intent = Intent(this, Menu::class.java)
+                // Passaggio all'activity Scelta.kt
+                val intent = Intent(this, SceltaActivity::class.java)
                 startActivity(intent)
             } else {
                 Toast.makeText(this, result, Toast.LENGTH_SHORT).show()
